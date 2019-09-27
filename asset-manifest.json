@@ -1,10 +1,15 @@
 {
   "main.css": "static/css/main.cfcbc687.css",
   "main.css.map": "static/css/main.cfcbc687.css.map",
-  "main.js": "static/js/main.7940dd04.js",
-  "main.js.map": "static/js/main.7940dd04.js.map",
+  "main.js": "static/js/main.2997969d.js",
+  "main.js.map": "static/js/main.2997969d.js.map",
+  "static/media/agility.jpg": "static/media/agility.e9dbf520.jpg",
+  "static/media/chugability.jpg": "static/media/chugability.9f618600.jpg",
+  "static/media/flipability.jpg": "static/media/flipability.bf55d5e8.jpg",
   "static/media/heisman.jpg": "static/media/heisman.baa6bf92.jpg",
   "static/media/helmet.jpg": "static/media/helmet.6d0a77d1.jpg",
   "static/media/stadium.jpg": "static/media/stadium.ce4c6e76.jpg",
+  "static/media/stamina.jpg": "static/media/stamina.672727fc.jpg",
+  "static/media/tolerance.jpg": "static/media/tolerance.9e65b3b0.jpg",
   "static/media/wp1863739.jpg": "static/media/wp1863739.b4e743af.jpg"
 }
