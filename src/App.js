@@ -3,6 +3,7 @@ import { HashRouter as Router, Route, Switch } from 'react-router-dom'
 import Home from './pages/Home'
 import Facts from './pages/Facts'
 import Schedule from './pages/Schedule'
+import Rules from './pages/Rules'
 import 'bulma/css/bulma.css'
 import 'aos/dist/aos.css'
 
@@ -20,6 +21,7 @@ class App extends Component {
                 <Route path="/" exact component={Home} />
                 <Route path="/facts/" component={Facts} />
                 <Route path="/schedule/" component={Schedule} />
+                <Route path="/rules/" component={Rules} />
             </Router>
         )
     }

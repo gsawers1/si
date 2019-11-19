@@ -84,7 +84,6 @@ class Home extends Component {
 
         <section className="section is-relative">
             <div className="container">
-
                 <div className="content-wrapper is-medium">
                     <div className="columns is-vcentered has-text-centered">
                         <div className="column is-4">
@@ -111,7 +110,11 @@ class Home extends Component {
                     </div>
 
                 </div>
-
+                <div className="has-text-white">
+                    <a className="has-text-white" target="_blank" href="https://docs.google.com/spreadsheets/d/1DcrTdyuB_Clw6L94zQuxnnb03IMkAlTiCVVnnwu_zzM/edit?usp=sharing">Last years trivia</a>
+                    <a className="has-text-white" target="_blank" href="https://en.wikipedia.org/wiki/Michigan_Marching_Band#Traditions">Band research</a>
+                    <a className="has-text-white" target="_blank" href="https://mgoblue.com/documents/2017/1/19/fbl-record-book.pdf">Record Book</a>
+                </div>
             </div>
         </section>
         </div>

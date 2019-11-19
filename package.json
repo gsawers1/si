@@ -2,9 +2,11 @@
   "name": "si",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://gsawers1.github.io/si",
   "dependencies": {
     "aos": "^2.3.4",
     "bulma": "^0.7.5",
+    "gh-pages": "^2.1.1",
     "react": "^16.9.0",
     "react-countdown-now": "^2.1.1",
     "react-dom": "^16.9.0",
@@ -14,6 +16,8 @@
   },
   "devDependencies": {},
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",

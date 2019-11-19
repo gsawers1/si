@@ -3,3 +3,62 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+@font-face {
+  font-family: 'optiedgar';
+  src: local('optiedgar'), url(./fonts/OPTIEdgar-Extended.otf) format('truetype');
+}
+
+#videobg {
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.topleft {
+	top: 33px;
+	left: 35px;
+	position: fixed;
+
+}
+
+.topcenter {
+	top: 23px;
+	left: 43%;
+	position: fixed;
+}
+
+.topright {
+	top: 33px;
+	right: 35px;
+	position: fixed;
+}
+
+
+.middleleft {
+	top: 50%;
+	left: 35px;
+	position: fixed;
+}
+
+.bottomleft {
+	bottom: 33px;
+    left: 35px;
+	position: fixed;
+}
+.bottomright {
+	bottom: 33px;
+	right: 35px;
+	position: fixed;
+}
+
+.content {
+  	padding: 20px;
+	font-weight: 700;
+    font-family: optiedgar,Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    color: white;
+  	min-width: 100%;
+  	min-height: 100%;
+  	z-index: 50;
+}
