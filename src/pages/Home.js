@@ -1,3 +1,4 @@
+  
 import React, { Component } from 'react'
 import { findDOMNode } from 'react-dom'
 import wp1863739 from '../img/wp1863739.jpg'
@@ -22,6 +23,7 @@ class Home extends Component {
                 minutes,
                 seconds
             } = props.formatted
+
             return(
                 <div className="container has-text-centered">
                   <h1 className="title is-size-1 timer has-text-warning has-text-weight-bold is-family-monospace">
@@ -47,7 +49,6 @@ class Home extends Component {
                             <div className="navbar-end">
                                 <Link className="navbar-item is-active" to="/"> Home </Link>
                                 <Link className="navbar-item" to="/facts/">F.A.C.T.S </Link>
-                                <Link className="navbar-item" to="/schedule/">Schedule </Link>
                                 <Link className="navbar-item" to="/rules/">Rules </Link>
                             </div>
                         </div>
@@ -78,7 +79,7 @@ class Home extends Component {
                     }} />
             </div>
             <div className="hero-body">
-                <Countdown date={new Date('2019-10-05T12:00:00')} renderer={timer} />
+                <Countdown date={new Date('2021-08-14T12:00:00')} renderer={timer} />
             </div>
         </section>
 

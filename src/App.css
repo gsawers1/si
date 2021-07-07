@@ -24,14 +24,7 @@
 }
 
 
-.bg-img {
-  background-image: url("./img/wp1863739.jpg");
-  background-position: center center;
-  background-repeat:  no-repeat;
-  background-attachment: fixed;
-  background-size:  cover;
-  background-color: #999;
-}
+
 
 .particles {
   position:absolute;
